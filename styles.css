@@ -1,0 +1,86 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+.header {
+	border-bottom: 2px solid #cccccc;
+}
+.register {
+	width: 350px;
+	margin: 10px auto;
+	padding:20px 20px 50px 20px;
+	background-color: #ffffff;
+	border-radius: 30px;
+	border: 1px solid #999999;
+}
+.login {
+	width: 380px;
+	margin: 20px auto;
+	padding:20px;
+	background-color: #ffffff;
+	border-radius: 30px;
+	border: 1px solid #999999;
+	clear: both;
+}
+
+.register div{
+	width: 310px;
+	padding: 5px;
+}
+.register input {
+	float: right;
+	width: 160px;
+	padding: 3px 5px;
+	border:1px solid #999999;
+	border-radius: 3px;
+}
+input[type=submit] {
+	/*float: right;*/
+	padding:5px 15px; 
+	/*margin-right: 10%;*/
+	background:#666666; 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: white;
+
+}
+.register input[type=submit] { 
+	margin: 10px 40px 0 0px;
+	width: 160px;
+}
+label {
+	color: #666666;
+}
+h2, h1 {
+	font-family: sans-serif;
+	color: #666666;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+div.errors {
+	color: white;
+	background-color: red;
+	padding: 5px 20px;
+	border-radius: 30px;
+}
+div.errors li {
+	margin: 0;
+}
+.clear {
+	clear: both;
+}
+table {
+	margin-left: 20px;
+	margin-bottom: 50px;
+	border-collapse: collapse;
+}
+table td {
+	padding:10px;
+}
+caption {
+
+}
